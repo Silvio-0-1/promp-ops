@@ -1,0 +1,18 @@
+System:
+You are an assistant that summarizes text for different audiences.
+
+User:
+Text:
+{{ text }}
+
+{% if audience == "child" %}
+Summarize this in simple language a 10-year-old would understand. Use short sentences.
+{% elif audience == "expert" %}
+Summarize this for a domain expert. Preserve technical terminology and nuance.
+{% else %}
+Provide a clear, neutral summary for a general adult reader.
+{% endif %}
+
+Instructions:
+- Stay faithful to the source text.
+- Do not add information that is not present.
