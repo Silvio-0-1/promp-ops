@@ -23,25 +23,6 @@ This repository documents a six-phase PromptOps lifecycle with examples, prompt 
 ### Hands-On
 - [Examples](examples/README.md) — runnable prompts and a Python eval.
 
----
-
-## Repository Structure
-
-```
-.
-├── README.md
-├── LICENSE
-├── .gitignore
-├── docs/        # One markdown file per topic / phase
-└── examples/    # Prompt templates and runnable code
-```
-
-## Getting Started
-
-```bash
-git clone https://github.com/<your-username>/promptops.git
-cd promptops
-```
 
 Start with [docs/success-criteria.md](docs/success-criteria.md), then walk through the phases in order.
 
